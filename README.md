@@ -22,15 +22,7 @@ OmniRAG Enterprise is a highly scalable, production-ready **Retrieval-Augmented 
 
 ---
 
-## 📸 Screenshots
 
-*(Due to a headless browser limitation, screenshots could not be automatically captured. Please drop `login.png` and `dashboard.png` into a `/screenshots` folder!)*
-
-| Login Gateway | Enterprise Dashboard |
-|:---:|:---:|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
-
----
 
 ## 🏗️ System Architecture
 
