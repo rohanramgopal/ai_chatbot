@@ -56,11 +56,11 @@ graph TD
 
     %% RAG Engine & DB Layer
     subgraph Engine["RAG Engine (LangChain)"]
-        PDF_Parser[PyPDF Text Extractor]
-        Text_Splitter[Recursive Character Splitter]
-        HF_Embed[HuggingFace Embeddings (all-MiniLM)]
-        Vector_DB[(FAISS Vector Store)]
-        LLM[Google Gemini 2.5 Flash]
+        PDF_Parser["PyPDF Text Extractor"]
+        Text_Splitter["Recursive Character Splitter"]
+        HF_Embed["HuggingFace Embeddings (all-MiniLM)"]
+        Vector_DB[("FAISS Vector Store")]
+        LLM["Google Gemini 2.5 Flash"]
     end
 
     %% Data Flow Connections
